@@ -4,6 +4,13 @@ This is a Next.js Project that uses the [Rest Countries API](https://restcountri
 * Next.js
 * Tailwind
 
+## Designs Provided By [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+* [Desktop Preview](https://user-images.githubusercontent.com/32345511/227697424-41783e41-2473-41ba-8303-75eecf76b0d2.jpg)
+* [Desktop Design Detail](https://user-images.githubusercontent.com/32345511/227697472-bde3ca3f-3325-4b1f-b80e-e28e2b092c58.jpg)
+* [Mobile Design Dark](https://user-images.githubusercontent.com/32345511/227697521-e23f2d58-51e0-4656-aa18-cad2ff1817ca.jpg)
+
+
+
 # How I Worked on this project
 My goal was to create an API connected App that acheieved 3 main things:
 * Allowed for routing, so when clicking on a specific country, you will get the correct data returned.
