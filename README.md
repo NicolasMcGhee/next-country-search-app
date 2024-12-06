@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overview
+This is a Next.js Project that uses the [Rest Countries API](https://restcountries.com/) and allows you to search for specific countries and regions for details.
+## Libraries Used
+* Next.js
+* Tailwind
 
-## Getting Started
+## Designs Provided By [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
+* [Desktop Preview](https://user-images.githubusercontent.com/32345511/227697424-41783e41-2473-41ba-8303-75eecf76b0d2.jpg)
+* [Desktop Design Detail](https://user-images.githubusercontent.com/32345511/227697472-bde3ca3f-3325-4b1f-b80e-e28e2b092c58.jpg)
+* [Mobile Design Dark](https://user-images.githubusercontent.com/32345511/227697521-e23f2d58-51e0-4656-aa18-cad2ff1817ca.jpg)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How I Worked on this project
+My goal was to create an API connected App that acheieved 3 main things:
+* Allowed for routing, so when clicking on a specific country, you will get the correct data returned.
+* Using state, a working search bar that returns and filters countries out as you search, along with a dropdown menu for region-based searching/filtering.
+* Finally, A light/dark mode for style and fully responsive.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# How to navigate this project
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  * The state and general logic for the site: [Example Code](https://github.com/NicolasMcGhee/next-country-search-app/blob/main/src/pages/index.js)
+  * The Application fetched data from the restcountries API: [The Home Page](https://github.com/NicolasMcGhee/next-country-search-app/blob/main/components/Countries.js) and the [Details Page](https://github.com/NicolasMcGhee/next-country-search-app/blob/main/src/pages/country/%5Bid%5D/index.js)
+  * The logic for the search bar [Example Code](https://github.com/NicolasMcGhee/next-country-search-app/blob/main/components/Search.js)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Why I built this project this way
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* I went with Next.js because it is the most popular React library and having experience with it can only help me, and after using it, I can easily see it being my go-to for my personal project. With its intergated routing and CSS modules making both easy and seamless, I've grown to enjoy it and learning more will be exciting.
+* Tailwind to see how more streamlined it can make CSS and it excelled. I would use it more, but after the experience, I can say it's only made my basee CSS skills even greater. Thanks Tailwind, the wind beneath my wings.
+* My End goal is to become a Back-End developer eventually, but starting with front-end will give me a complete picture of the process and will only improve me. I also enjoy working with APIs and data-fetching in general.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# If I had more time
+* I would add an API that tracked the current time and display it on the homepage for each country.
+* Continue to refactor the code, namely Tailwind, for shorter classnames.
+* Probably just general minor design additions.
