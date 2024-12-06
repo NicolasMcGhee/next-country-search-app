@@ -12,7 +12,6 @@ export default function Country({ country }) {
             <div className="my-10 container m-auto">
                  <button type="button" onClick={() => router.back()} className="bg-[#ffffff] dark:bg-[#2b3945] drop-shadow-lg rounded-md">
                     <h1 className="text-white text-2xl  py-[10px] px-[50px]">&larr; Back</h1>
-                    
                 </button>
             </div>
             

@@ -59,7 +59,6 @@ export default function Home() {
     getCountryDataRequest()
   },[selected])
   
-  
   return (
     <div>
       <Search 
